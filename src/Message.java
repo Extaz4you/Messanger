@@ -14,17 +14,10 @@ public class Message {
                 '}';
     }
 
-//    public Person getSender() {
-//        return sender;
-//    }
-
     public void setSender(Person sender) {
         this.sender = sender;
     }
 
-//    public Person getResever() {
-//        return resever;
-//    }
 
     public void setResever(Person resever) {
         this.resever = resever;
@@ -38,9 +31,6 @@ public class Message {
         this.ID = ID;
     }
 
-//     public String getText() {
-//        return text;
-//    }
 
     public void setText(String text) {
         this.text = text;

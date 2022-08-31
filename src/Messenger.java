@@ -8,7 +8,7 @@ public class Messenger {
     List<Message> messageList;
 
     List<Person> usersList;
-    int messageCounter;
+    private int messageCounter;
 
     public Messenger() {
         this.messageList = new ArrayList<>();
